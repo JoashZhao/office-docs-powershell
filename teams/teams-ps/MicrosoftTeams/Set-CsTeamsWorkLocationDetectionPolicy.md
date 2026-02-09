@@ -23,7 +23,8 @@ Set-CsTeamsWorkLocationDetectionPolicy [-EnableWorkLocationDetection <Boolean>] 
 ```
 
 ## DESCRIPTION
-Creates a new instance of the TeamsWorkLocationDetectionPolicy. This policy can be used to tailor the work location detection experience in Microsoft Teams. When the EnableWorkLocationDetection parameter is enabled, Teams determines a user’s work location based on their interaction with organization‑managed networks and devices, such as desks or peripherals configured by IT administrators. To learn how to configure desks to certain work location, please see [Configure buildings and floors - Microsoft Places | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/places/get-started/quick-setup-buildings-floors)
+Creates a new instance of the TeamsWorkLocationDetectionPolicy. This policy can be used to tailor the work location detection experience in Microsoft Teams. When the EnableWorkLocationDetection parameter is enabled, Teams determines a user’s work location based on their interaction with organization‑managed networks and devices, such as desks or peripherals configured by IT administrators. To learn how to configure desks to certain work location, please see [Configure buildings and floors - Microsoft Places | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/places/get-started/quick-setup-buildings-floors).
+
 This policy does not collect, store, or use geographic location data from users’ personal or mobile devices. Any location information used by Teams is derived solely from organization‑managed resources and is used to set the user’s work location within Teams.
 Microsoft processes this information in accordance with the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) to provide a consistent location‑based experience and support hybrid work scenarios in Microsoft 365.
 
